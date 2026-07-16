@@ -7,7 +7,7 @@
       "version": 1,
       "name": "Escaneo simple a PDF",
       "description": "Escaneo básico (enderezado automático + blanco y negro) que exporta un PDF por lote al finalizar el procesado. Pensada para digitalizar documentos sencillos sin lectura de códigos de barras.",
-      "category": "Digitalizacion",
+      "category": "Digitalización",
       "tags": [
         "escaneo",
         "pdf"
@@ -21,14 +21,14 @@
       "packUrl": "apps/escaneo-simple-pdf.flexiapp.json",
       "sha256": "9A5A4130A1A8A4FC1707C0260739383C1191A48026F114F38281854C1C1D37EF",
       "publishedAt": "2026-07-16",
-      "changelog": "Primera version"
+      "changelog": "Primera versión"
     },
     {
       "id": "facturas-code128",
       "version": 1,
       "name": "Facturas por Code128",
       "description": "Lee un código de barras Code128 por página (por ejemplo, el número de factura) y transfiere cada documento como PDF a una ruta interpolada por fecha y código de barras.",
-      "category": "Administracion",
+      "category": "Administración",
       "tags": [
         "facturas",
         "barcode",
@@ -43,7 +43,7 @@
       "packUrl": "apps/facturas-code128.flexiapp.json",
       "sha256": "D7CF2931CD832A0C0E6A5CF282E27931865C8EA13C96BBDE508491C9C85BFFC4",
       "publishedAt": "2026-07-16",
-      "changelog": "Primera version"
+      "changelog": "Primera versión"
     }
   ]
 }
