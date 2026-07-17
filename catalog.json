@@ -1,12 +1,12 @@
 {
   "catalogVersion": "1.0",
-  "updatedAt": "2026-07-16T16:14:34Z",
+  "updatedAt": "2026-07-17T08:57:16Z",
   "apps": [
     {
       "id": "escaneo-simple-pdf",
-      "version": 1,
+      "version": 2,
       "name": "Escaneo simple a PDF",
-      "description": "Escaneo básico (enderezado automático + blanco y negro) que exporta un PDF por lote al finalizar el procesado. Pensada para digitalizar documentos sencillos sin lectura de códigos de barras.",
+      "description": "Escaneo básico (enderezado automático + blanco y negro) que exporta un PDF por lote al finalizar el procesado. Pensada para digitalizar documentos sencillos sin lectura de códigos de barras. [v2 de prueba]",
       "category": "Digitalización",
       "tags": [
         "escaneo",
@@ -19,9 +19,9 @@
       "formatVersion": "1.0",
       "minAppVersion": "",
       "packUrl": "apps/escaneo-simple-pdf.flexiapp.json",
-      "sha256": "9A5A4130A1A8A4FC1707C0260739383C1191A48026F114F38281854C1C1D37EF",
-      "publishedAt": "2026-07-16",
-      "changelog": "Primera versión"
+      "sha256": "7E1251811BA14B35F2DFB234592B6103F1650DBCB7C3C74F02A28FE4AB65ABF3",
+      "publishedAt": "2026-07-17",
+      "changelog": "Versión 2 de prueba (smoke del flujo Actualizar)"
     },
     {
       "id": "facturas-code128",

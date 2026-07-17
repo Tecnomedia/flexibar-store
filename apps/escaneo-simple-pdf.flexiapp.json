@@ -3,7 +3,7 @@
   "exportedAt": "2026-07-16T00:00:00.0000000Z",
   "app": {
     "name": "Escaneo simple a PDF",
-    "description": "Escaneo básico (enderezado automático + blanco y negro) que exporta un PDF por lote al finalizar el procesado. Pensada para digitalizar documentos sencillos sin lectura de códigos de barras.",
+    "description": "Escaneo básico (enderezado automático + blanco y negro) que exporta un PDF por lote al finalizar el procesado. Pensada para digitalizar documentos sencillos sin lectura de códigos de barras. [v2 de prueba]",
     "active": true,
     "group": "",
     "pipelineJson": "[{\"id\":\"deskew\",\"type\":\"image_op\",\"enabled\":true,\"op\":\"deskew\"},{\"id\":\"bn\",\"type\":\"image_op\",\"enabled\":true,\"op\":\"binarize\"}]",
