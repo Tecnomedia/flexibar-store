@@ -1,13 +1,9 @@
 {
   "catalogVersion": "1.0",
-  "updatedAt": "2026-07-16T16:14:34Z",
+  "updatedAt": "2026-07-20T08:26:12.1446023Z",
   "apps": [
     {
-      "id": "escaneo-simple-pdf",
-      "version": 1,
-      "name": "Escaneo simple a PDF",
-      "description": "Escaneo básico (enderezado automático + blanco y negro) que exporta un PDF por lote al finalizar el procesado. Pensada para digitalizar documentos sencillos sin lectura de códigos de barras.",
-      "category": "Digitalización",
+      "category": "Digitalizaci\u00F3n",
       "tags": [
         "escaneo",
         "pdf"
@@ -16,19 +12,19 @@
       "iconAccent": "blue",
       "backgroundColor": "",
       "hasScripts": false,
+      "id": "escaneo-simple-pdf",
+      "version": 1,
+      "name": "Escaneo simple a PDF",
+      "description": "Escaneo b\u00E1sico (enderezado autom\u00E1tico \u002B blanco y negro) que exporta un PDF por lote al finalizar el procesado. Pensada para digitalizar documentos sencillos sin lectura de c\u00F3digos de barras.",
       "formatVersion": "1.0",
       "minAppVersion": "",
       "packUrl": "apps/escaneo-simple-pdf.flexiapp.json",
       "sha256": "9A5A4130A1A8A4FC1707C0260739383C1191A48026F114F38281854C1C1D37EF",
       "publishedAt": "2026-07-16",
-      "changelog": "Primera versión"
+      "changelog": "Primera versi\u00F3n"
     },
     {
-      "id": "facturas-code128",
-      "version": 1,
-      "name": "Facturas por Code128",
-      "description": "Lee un código de barras Code128 por página (por ejemplo, el número de factura) y transfiere cada documento como PDF a una ruta interpolada por fecha y código de barras.",
-      "category": "Administración",
+      "category": "Administraci\u00F3n",
       "tags": [
         "facturas",
         "barcode",
@@ -38,12 +34,31 @@
       "iconAccent": "green",
       "backgroundColor": "",
       "hasScripts": false,
+      "id": "facturas-code128",
+      "version": 1,
+      "name": "Facturas por Code128",
+      "description": "Lee un c\u00F3digo de barras Code128 por p\u00E1gina (por ejemplo, el n\u00FAmero de factura) y transfiere cada documento como PDF a una ruta interpolada por fecha y c\u00F3digo de barras.",
       "formatVersion": "1.0",
       "minAppVersion": "",
       "packUrl": "apps/facturas-code128.flexiapp.json",
       "sha256": "D7CF2931CD832A0C0E6A5CF282E27931865C8EA13C96BBDE508491C9C85BFFC4",
       "publishedAt": "2026-07-16",
-      "changelog": "Primera versión"
+      "changelog": "Primera versi\u00F3n"
+    }
+  ],
+  "scanConfigs": [
+    {
+      "deviceName": "Canon DR-M160 TWAIN",
+      "id": "canon-dr-m160-twain-canon300",
+      "version": 1,
+      "name": "Canon300",
+      "description": "Perfil de escaneo a 300 DPI para Canon DR-M160.",
+      "formatVersion": "1.0",
+      "minAppVersion": "",
+      "packUrl": "scanconfigs/canon-dr-m160-twain-canon300.flexiscan.json",
+      "sha256": "2E42DB5D90922A141AF90E27756D8E252CA22CE209F8DE7310EA39F2A991CAD6",
+      "publishedAt": "2026-07-20",
+      "changelog": "Primera versi\u00F3n"
     }
   ]
 }
